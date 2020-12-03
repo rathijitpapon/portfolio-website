@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.App-header {
+    background-color:#090909;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+  
+.App-main {
+    min-height: 95vh; 
+}
+
+.App-footer {
+    min-height: 5vh; 
+}  
+
+.particle{
+    position:fixed !important;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.home-left{
+    height: 100%;
+}
+
+.home-left-main{
+    height: 100%;
+    text-align: center;
+}
+
+.home-left-main-col{
+    margin: auto;    
+    display: block;
+}
+
+.first-line{
+    font-size: 4.5rem;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.second_line{
+    font-size: 3rem;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.typical{
+    font-size: 1.6rem;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.home-left-aboutme-main{
+    position: relative;
+    z-index: -1;
+}
+
+.home-left-aboutme{
+   color: aliceblue;
+}
+
+.home-left-aboutme:hover{
+    color: black;
+ }
+
+.home-left-aboutmme-btn {
+    margin-bottom: 10px;
+}
+
+.home-left-aboutmme-btn:hover{
+     background: #666666;
+ }
+
+.home-right{
+    height: 100%;
+}
+
+.home-right-main{
+    height: 100%;
+}
+
+.home-right-main-img{
+      height: 65vh;
+      margin: auto;    
+      display: block;
+}
+
+.home-right-footer{
+     width: 100%;
+}
+
+.social-icons{
+    text-align: center;
+}
+ 
+.fb{
+    margin: 3%;
+    color: white;
+}
+
+.fb:hover{
+    color: #386ddd;
+}
+
+.git{
+    margin: 3%;
+    color: white;
+}
+
+.git:hover{
+    color: #16fa01;
+}
+
+.linkedin{
+    margin: 3%;
+    color: white;
+}
+  
+.linkedin:hover{
+    color: #0e76a8;
+}
+
+.footer{
+    height: 100%;
+    text-align: center;
+    font-size: medium;
+    color: rgb(202, 200, 200);
+}
+
+@media only screen and (max-width: 600px) {
+    .home-right-main-img{
+        height: 42vh;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+    .home-right-main-img{
+        height: 32vh;
+  }
+}
