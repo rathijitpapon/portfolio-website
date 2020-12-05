@@ -3,6 +3,7 @@ import {Switch, Route} from "react-router-dom";
 
 import Loading from "../views/Loading";
 import Home from "../views/Home";
+import Contact from "../views/Contact";
 
 const MainLayout = () => {
   return (
@@ -13,7 +14,7 @@ const MainLayout = () => {
         <Route path="/project" component={Home} />
         <Route path="/learning" component={Home} />
         <Route path="/about" component={Home} />
-        <Route path="/contact" component={Home} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     </div>
   );

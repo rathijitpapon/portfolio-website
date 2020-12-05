@@ -10,6 +10,7 @@ import {Link} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
+import Footer from "../../components/Footer";
 import {
     Container,
     Row,
@@ -137,7 +138,7 @@ const Home = (props) => {
                         <Row className="home-right-main">
                             <Col xl={12}>
                             <br />
-                            <Image src={Rathijit} className="home-right-main-img" alt="Image of Motasim Foad"/>
+                            <Image src={Rathijit} className="home-right-main-img" alt="Image of Rathijit Paul"/>
                             </Col>
                             <Row className="home-right-footer" >
                                 <Col xl={12} className="social-icons">
@@ -173,13 +174,7 @@ const Home = (props) => {
                     </Col>
                     </Row>
                     <Row className="App-footer">
-                        <Container className="footer" fluid={true}>
-                            <Row >
-                                <Col xl={12}>
-                                    Copyright © 2019-{(new Date().getFullYear())} <strong>Rathijit Paul</strong>
-                                </Col>
-                            </Row>
-                        </Container>
+                        <Footer />
                     </Row>
                 </Container>
             </Animate>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.Contact-header {
+    background-color:#090909;
+    color: white;
+}
+  
+.Hamburger-menu{
+    min-height: 7vh; 
+}
+  
+.Contact-main {
+    min-height: 88vh; 
+}
+  
+.Contact-left{
+    margin: auto;    
+    display: block;
+}
+  
+.Contact-right{
+    margin: auto;    
+    display: block;
+}
+  
+.Contact-footer {
+    min-height: 5vh; 
+}  
+
+.Contact-text{
+  text-align: center;
+ }
+
+.p-heading1{
+  font-size: 4rem;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.p-heading2{
+  font-size: 0.98rem;
+  padding: 2.5%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.contact-left-footer{
+  width: 100%;
+  font-size: 1.7rem;
+}
+
+.social-icons{
+    text-align: center;
+}
+ 
+.fb{
+    margin: 3%;
+    color: white;
+}
+
+.fb:hover{
+    color: #386ddd;
+}
+
+.git{
+    margin: 3%;
+    color: white;
+}
+
+.git:hover{
+    color: #16fa01;
+}
+
+.linkedin{
+    margin: 3%;
+    color: white;
+}
+  
+.linkedin:hover{
+    color: #0e76a8;
+}
+
+@media only screen and (max-width: 600px) {
+    .Contact-left{
+        margin-bottom: 20px;
+  }
+}
