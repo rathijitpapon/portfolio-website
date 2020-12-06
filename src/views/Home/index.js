@@ -93,11 +93,11 @@ const Home = (props) => {
                                         className="home-left-aboutmme-btn"
                                     >
                                         <Link 
-                                            to="/learning" 
+                                            to="/blog" 
                                             style={{ textDecoration: 'none', color: 'white' }} 
                                             className="home-left-aboutme"
                                         >
-                                            Learnings
+                                            Blog
                                         </Link>
                                     </Button> &nbsp;
 

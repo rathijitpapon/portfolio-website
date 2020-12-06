@@ -4,6 +4,7 @@ import {Switch, Route} from "react-router-dom";
 import Loading from "../views/Loading";
 import Home from "../views/Home";
 import Contact from "../views/Contact";
+import About from "../views/About";
 
 const MainLayout = () => {
   return (
@@ -12,8 +13,8 @@ const MainLayout = () => {
         <Route exact path="/" component={Loading} />
         <Route path="/home" component={Home} />
         <Route path="/project" component={Home} />
-        <Route path="/learning" component={Home} />
-        <Route path="/about" component={Home} />
+        <Route path="/blog" component={Home} />
+        <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
       </Switch>
     </div>
