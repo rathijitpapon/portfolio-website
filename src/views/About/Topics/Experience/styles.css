@@ -1,0 +1,14 @@
+  .About-text{
+    text-align: center;
+}
+  
+.p-heading1{
+    font-size: 4rem;
+    font-family: 'Sulphur Point', sans-serif;
+}
+  
+.p-heading2{
+    font-size: 0.98rem;
+    padding: 2.5%;
+    font-family: 'Roboto Mono', monospace;
+}

@@ -9,6 +9,7 @@
   
 .Hamburger-menu{
     min-height: 7vh; 
+    margin-bottom: 20px;
 }
 
 .d1{
@@ -39,37 +40,27 @@
     display: block;
 }
   
-.About-text{
-    text-align: center;
-}
-  
-.p-heading1{
-    font-size: 4rem;
-    font-family: 'Sulphur Point', sans-serif;
-}
-  
-.p-heading2{
-    font-size: 0.98rem;
-    padding: 2.5%;
-    font-family: 'Roboto Mono', monospace;
-}
-  
 .about-left-footer{
     width: 100%;
     font-size: 1.7rem;
 }
   
 .button-main{
-      text-align: center;
+    text-align: center;
+    margin-left: 30px;
 }
 
-.resume-btn {
+.topic-btn {
     margin-bottom: 10px;
 }
 
-.resume-btn:hover{
+.topic-btn:hover{
      background: #666666;
- }
+}
+
+.resume-btn{
+    visibility: visible;
+}
 
 .about_resume_modal_body{
     width: 700px;
@@ -109,8 +100,8 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .button-main{
-        display: none;
+    .resume-btn{
+        visibility: hidden;
     }
 
     #pdfviewer {

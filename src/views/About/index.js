@@ -10,6 +10,11 @@ import aboutParticlesConfig from '../../config/aboutParticlesConfig';
 import Hamburger from '../../components/Hamburger';
 import Footer from "../../components/Footer";
 
+import AboutMe from "./Topics/AboutMe";
+import Education from "./Topics/Education";
+import Experience from "./Topics/Experience";
+import Skill from "./Topics/Skill";
+
 import {Container, Row, Col, Button, Modal} from 'react-bootstrap';
 import "./styles.css";
 
@@ -26,6 +31,7 @@ function Analytics () {
 const About = (props) => {
 
     const [show, setShow] = useState(false);
+    const [topic, setTopic] = useState("about-me");
 
     const handleClose = () => {
         setShow(false);
@@ -33,6 +39,10 @@ const About = (props) => {
 
     const handleOpen = () => {
         setShow(true);
+    }
+
+    const handleTopic = (topicName) => {
+        setTopic(topicName);
     }
 
     Analytics()
@@ -59,77 +69,60 @@ const About = (props) => {
                 <Row className="Hamburger-menu">
                     <Hamburger />
                 </Row>
+
                 <Row className="About-Col-main">
-                    <Col  xl={6}  className="About-col">
+                    <Col  xl={4}  className="About-col">
                         <div>
-                            <Row className="About-text">
-                                <Col xl={12}>
-                                    <h1 className="p-heading1">About Me</h1>
-                                    <p className="p-heading2">
-                                        Hello, I am <strong>Rathijit Paul</strong>. <br />
-                                        I'm currently pursuing an undergraduate degree in <strong><a 
-                                            style={{ color: "#e493ea"}}
-                                            href="https://cse.buet.ac.bd/" 
-                                            target="_blank" 
-                                            rel="noopener noreferrer"
-                                        >Computer Science & Engineering</a></strong> at <strong><a 
-                                            style={{ color: "#e493ea"}}
-                                            href="https://www.buet.ac.bd/web/" 
-                                            target="_blank" 
-                                            rel="noopener noreferrer"
-                                        >Bangladesh University of Engineering & Technology (BUET)</a></strong>. <br /><br />
-
-                                        Besides academic studies, I practice full stack web development & machine learning. Also I’m doing an internship as a <strong>Software Engineer</strong> in a well known startup software company.
-                                    </p>
-
-                                    <div className="p-heading2">
-                                        <ul>
-                                            <li 
-                                                style={{margin: "auto", textAlign: 'left'}}
-                                            >
-                                                <strong>My key interests are:</strong>
-                                            </li>
-                                            <li 
-                                                style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
-                                            >
-                                                🥰 Software Development
-                                            </li>
-                                            <li 
-                                                style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
-                                            >
-                                                🤩 Web Application Development
-                                            </li>
-                                            <li 
-                                                style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
-                                            >
-                                                😊 Backend Development
-                                            </li>
-                                            <li 
-                                                style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
-                                            >
-                                                😍 Programming Problem Solving
-                                            </li>
-                                            <li 
-                                                style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
-                                            >
-                                                😀 Machine Learning
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    
-                                    <p  className="p-heading2">
-                                        I always love to explore new technology, learn them, and solve programming related problems. On my free time I like to travel, explore different food items, watch movies & play games.
-                                    </p>
-                                </Col>
-                            </Row>
-                            
                             <Row className="about-left-footer" >
                                 <Col xl={12} className="button-main">
-                                    &nbsp; &nbsp;
                                     <Button 
                                         variant="outline-light" 
                                         size="lg" 
-                                        className="resume-btn"
+                                        className="topic-btn"
+                                        onClick={() => handleTopic("about-me")}
+                                    >
+                                        About Me
+                                    </Button> &nbsp;
+
+                                    <Button 
+                                        variant="outline-light" 
+                                        size="lg" 
+                                        className="topic-btn"
+                                        onClick={() => handleTopic("experience")}
+                                    >
+                                        Experiences
+                                    </Button>
+                                </Col>
+                            </Row>
+
+                            <Row className="about-left-footer" >
+                                <Col xl={12} className="button-main">
+                                    <Button 
+                                        variant="outline-light" 
+                                        size="lg" 
+                                        className="topic-btn"
+                                        onClick={() => handleTopic("education")}
+                                    >
+                                        Education
+                                    </Button> &nbsp;
+
+                                    <Button 
+                                        variant="outline-light" 
+                                        size="lg" 
+                                        className="topic-btn"
+                                        onClick={() => handleTopic("skill")}
+                                    >
+                                        Skills
+                                    </Button>
+                                </Col>
+                            </Row>
+
+                            <Row className="about-left-footer" >
+                                <Col xl={12} className="button-main">
+                                    <Button 
+                                        variant="outline-light" 
+                                        size="lg" 
+                                        className="topic-btn resume-btn"
                                         onClick={handleOpen}
                                     >
                                         Resume
@@ -158,25 +151,13 @@ const About = (props) => {
                             </Modal>
                         </div>
                     </Col>
-                    <Col  xl={6}  className="About-col">
-                        <div>
-                            <Row className="About-text">
-                                <Col xl={12}>
-                                    <h1 className="p-heading1">Education</h1>
-                                    <p className="p-heading2">
-                                        
-                                    </p>
-                                </Col>
-                            </Row>
-                            
-                            <Row className="about-left-footer" >
-                                <Col xl={12} className="social-icons">
-                                    &nbsp; &nbsp;
-
-                                </Col>
-                            </Row>
-                        </div>
+                    <Col  xl={8}  className="About-col">
+                        {topic === "about-me" ? <AboutMe /> : null}
+                        {topic === "experience" ? <Experience /> : null}
+                        {topic === "education" ? <Education /> : null}
+                        {topic === "skill" ? <Skill /> : null}
                     </Col>
+                    
                 </Row>
             </Row>
             <Row className="About-footer">
