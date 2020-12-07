@@ -1,15 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
 import Animate from 'react-smooth';
 import Particles from 'react-particles-js';
+import { pdfjs } from 'react-pdf';
 
+import Resume from '../../assets/pdfs/Rathijit Paul.pdf';
 import aboutParticlesConfig from '../../config/aboutParticlesConfig';
 import Hamburger from '../../components/Hamburger';
 import Footer from "../../components/Footer";
 
-import {Container, Row, Col, Button,} from 'react-bootstrap';
+import {Container, Row, Col, Button, Modal} from 'react-bootstrap';
 import "./styles.css";
+
+import Viewer, { Worker } from '@phuocng/react-pdf-viewer';
+import '@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css';
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function Analytics () {
     ReactGa.initialize(process.env.REACT_APP_GA_KEY);
@@ -17,6 +24,17 @@ function Analytics () {
 }
 
 const About = (props) => {
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => {
+        setShow(false);
+    }
+
+    const handleOpen = () => {
+        setShow(true);
+    }
+
     Analytics()
 
     return (
@@ -112,12 +130,32 @@ const About = (props) => {
                                         variant="outline-light" 
                                         size="lg" 
                                         className="resume-btn"
+                                        onClick={handleOpen}
                                     >
-                                        
                                         Resume
                                     </Button>
                                 </Col>
                             </Row>
+                            <Modal
+                                size="xs"
+                                aria-labelledby="contained-modal-title-vcenter"
+                                show={show} 
+                                onHide={handleClose}
+                                centered
+                            >
+                                <Modal.Body className="about_resume_modal_body">
+                                    <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.5.207/build/pdf.worker.min.js">
+                                        <div id="pdfviewer">
+                                            <Viewer fileUrl={Resume} />
+                                        </div>
+                                    </Worker>
+                                    {/* <Document
+                                        file={Resume}
+                                    >
+                                        <Page pageNumber={1} />
+                                    </Document> */}
+                                </Modal.Body>
+                            </Modal>
                         </div>
                     </Col>
                     <Col  xl={6}  className="About-col">
