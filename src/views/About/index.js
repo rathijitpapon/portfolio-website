@@ -136,8 +136,8 @@ const About = (props) => {
                                     </Button>
                                 </Col>
                             </Row>
+
                             <Modal
-                                size="xs"
                                 aria-labelledby="contained-modal-title-vcenter"
                                 show={show} 
                                 onHide={handleClose}

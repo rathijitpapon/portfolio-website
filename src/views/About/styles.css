@@ -72,6 +72,8 @@
  }
 
 .about_resume_modal_body{
+    width: 700px;
+    height: 580px;
     text-align: center;
     background: #090909;
     color: aliceblue;
@@ -80,7 +82,7 @@
 #pdfviewer {
     width: 650px;
     height: 550px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #pdfviewer .viewer-layout-toolbar {
@@ -106,8 +108,16 @@
     display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .button-main{
         display: none;
-  }
+    }
+
+    #pdfviewer {
+        display: none;
+    }
+
+    .about_resume_modal_body{
+        display: none;
+    }
 }
