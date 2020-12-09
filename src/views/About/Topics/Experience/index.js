@@ -1,6 +1,8 @@
 import React from 'react';
 
-import {Row, Col} from 'react-bootstrap';
+import MFL from '../../../../assets/img/mfl.png';
+
+import {Row, Col, Image} from 'react-bootstrap';
 import "./styles.css";
 
 const Experience = () => {
@@ -9,60 +11,37 @@ const Experience = () => {
             <Row className="About-text">
                 <Col xl={12}>
                     <h1 className="p-heading1">Experiences</h1>
-                    <p className="p-heading2">
-                        Hello, I am <strong>Rathijit Paul</strong>. <br />
-                        I'm currently pursuing an undergraduate degree in <strong><a 
-                            style={{ color: "#e493ea"}}
-                            href="https://cse.buet.ac.bd/" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                        >Computer Science & Engineering</a></strong> at <strong><a 
-                            style={{ color: "#e493ea"}}
-                            href="https://www.buet.ac.bd/web/" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                        >Bangladesh University of Engineering & Technology (BUET)</a></strong>. <br /><br />
-
-                        Besides academic studies, I practice full stack web development & machine learning. Also I’m doing an internship as a <strong>Software Engineer</strong> in a well known startup software company.
-                    </p>
-
-                    <div className="p-heading2">
-                        <ul>
-                            <li 
-                                style={{margin: "auto", textAlign: 'left'}}
-                            >
-                                <strong>My key interests are:</strong>
-                            </li>
-                            <li 
-                                style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
-                            >
-                                🥰 Software Development
-                            </li>
-                            <li 
-                                style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
-                            >
-                                🤩 Web Application Development
-                            </li>
-                            <li 
-                                style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
-                            >
-                                😊 Backend Development
-                            </li>
-                            <li 
-                                style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
-                            >
-                                😍 Programming Problem Solving
-                            </li>
-                            <li 
-                                style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
-                            >
-                                😀 Machine Learning
-                            </li>
-                        </ul>
-                    </div>
+                    <br />
+                    <Row>
+                        <Col md={3}>
+                            <Image 
+                                style={{ 
+                                    marginTop: "5px",
+                                }} 
+                                src={MFL} alt="Image of Mainframe Labs Ltd." className="experience-img" 
+                            />
+                        </Col>
+                        <Col md={4}>
+                            <p className="exp-p-heading2">
+                                <strong>
+                                    <a 
+                                        style={{ color: "#e493ea"}} 
+                                        href="https://mainframelabs.ltd/"
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                    >
+                                        Mainframe Labs Ltd.
+                                    </a>
+                                    
+                                </strong> <br />
+                                Software Engineer Intern <br />
+                                Sep 2020​ – ​ Present
+                            </p>
+                        </Col>
+                    </Row>
                     
-                    <p  className="p-heading2">
-                        I always love to explore new technology, learn them, and solve programming related problems. On my free time I like to travel, taste different food items, watch movies & play games.
+                    <p className="exp-p-heading2">
+                        
                     </p>
                 </Col>
             </Row>

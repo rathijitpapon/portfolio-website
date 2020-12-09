@@ -7,8 +7,22 @@
     font-family: 'Sulphur Point', sans-serif;
 }
   
-.p-heading2{
+.skill-p-heading2{
+    text-align: left;
     font-size: 0.98rem;
     padding: 2.5%;
     font-family: 'Roboto Mono', monospace;
+}
+
+.skill-text {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 580px) {
+    .skill-text {
+        margin-bottom: 15px;
+        text-align: left;
+        margin-left: 15%;
+    }
 }

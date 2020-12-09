@@ -76,6 +76,9 @@ const About = (props) => {
                             <Row className="about-left-footer" >
                                 <Col xl={12} className="button-main">
                                     <Button 
+                                        style={topic === "about-me" ? {
+                                            background: "#666666", fontColor: "black"} : null
+                                        }
                                         variant="outline-light" 
                                         size="lg" 
                                         className="topic-btn"
@@ -85,6 +88,9 @@ const About = (props) => {
                                     </Button> &nbsp;
 
                                     <Button 
+                                        style={topic === "experience" ? {
+                                            background: "#666666", fontColor: "black"} : null
+                                        }
                                         variant="outline-light" 
                                         size="lg" 
                                         className="topic-btn"
@@ -98,6 +104,9 @@ const About = (props) => {
                             <Row className="about-left-footer" >
                                 <Col xl={12} className="button-main">
                                     <Button 
+                                        style={topic === "education" ? {
+                                            background: "#666666", fontColor: "black"} : null
+                                        }
                                         variant="outline-light" 
                                         size="lg" 
                                         className="topic-btn"
@@ -107,6 +116,9 @@ const About = (props) => {
                                     </Button> &nbsp;
 
                                     <Button 
+                                        style={topic === "skill" ? {
+                                            background: "#666666", fontColor: "black"} : null
+                                        }
                                         variant="outline-light" 
                                         size="lg" 
                                         className="topic-btn"
