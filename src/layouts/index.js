@@ -1,5 +1,5 @@
 import React from "react";
-import {Switch, Route} from "react-router-dom";
+import {Switch, Route, Redirect} from "react-router-dom";
 
 import Loading from "../views/Loading";
 import Home from "../views/Home";
@@ -12,11 +12,12 @@ const MainLayout = () => {
     <div>
       <Switch>
         <Route exact path="/" component={Loading} />
-        <Route path="/home" component={Home} />
-        <Route path="/project" component={Projects} />
-        <Route path="/blog" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/project" component={Projects} />
+        {/* <Route exact path="/blog" component={Home} /> */}
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Redirect path="*" to="/home" component={Home} />
       </Switch>
     </div>
   );

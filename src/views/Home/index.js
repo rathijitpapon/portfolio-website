@@ -87,7 +87,7 @@ const Home = (props) => {
                                         </Link>
                                     </Button> &nbsp;
 
-                                    <Button 
+                                    {/* <Button 
                                         variant="outline-light" 
                                         size="lg" 
                                         className="home-left-aboutmme-btn"
@@ -99,7 +99,7 @@ const Home = (props) => {
                                         >
                                             Blog
                                         </Link>
-                                    </Button> &nbsp;
+                                    </Button> &nbsp; */}
 
                                     <Button 
                                         variant="outline-light" 

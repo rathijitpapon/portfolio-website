@@ -18,7 +18,7 @@ const Hamburger = props => {
                         <ul>
                         <li><Link to="/home">HOME</Link></li>
                         <li><Link to="/project">Projects</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
+                        {/* <li><Link to="/blog">Blog</Link></li> */}
                         <li><Link to="/about">ABOUT</Link></li>
                         <li><Link to="/contact">CONTACT</Link></li>
                         </ul>
