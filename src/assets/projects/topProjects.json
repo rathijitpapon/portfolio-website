@@ -24,5 +24,82 @@
             "portfolio2.png",
             "portfolio3.png"
         ]
+    },
+    {
+        "id": 2,
+        "title": "Travel Talk",
+        "technologies": [
+            "React Js",
+            "Node Js",
+            "Express",
+            "Mongoose",
+            "Web Socket",
+            "REST API",
+            "Jest"
+        ],
+        "description": "This is one of my portfolio projects. I built it as a practice project using MERN Stack. Here I build a social platform for the travellers worldwide where they travellers can share their travel experiences. Here is the frontend code base this web app.",
+        "links": [
+            {
+                "title": "Frontend Code",
+                "url": "https://github.com/rathijitpapon/travel-talk"
+            },
+            {
+                "title": "Backend Code",
+                "url": "https://github.com/rathijitpapon/travel-talk-backend"
+            },
+            {
+                "title": "Visit Here",
+                "url": "https://traveltalk.netlify.app/"
+            }
+        ],
+        "images": [
+            "traveltalk1.png",
+            "traveltalk2.png",
+            "traveltalk3.png",
+            "traveltalk4.png",
+            "traveltalk5.png"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Line Of Action",
+        "technologies": [
+            "React Js",
+            "Artificial Intelligence",
+            "Game Programming"
+        ],
+        "description": "Lines of Action is a board game, of the same general type as Chess, Go, or Othello. LOA was invented by Claude Soucie, and described in A Gamut of Games by Sid Sackson. I made this game for my Artificial Intelligence assignment which is taught in my undergraduate course curriculum.",
+        "links": [
+            {
+                "title": "Code",
+                "url": "https://github.com/rathijitpapon/line-of-action"
+            },
+            {
+                "title": "Visit Here",
+                "url": "https://lineofaction.herokuapp.com/"
+            }
+        ],
+        "images": [
+            "lineofaction1.png"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Online Judge - Java Based FTP Project",
+        "technologies": [
+            "Java",
+            "JavaFx",
+            "FTP"
+        ],
+        "description": "Here, we build an online programming code compiler & judging desktop application. We use Java & JavaFX. Here a user uploads their C or Java code file to the local server for a specific programming problem and the server gives a verdict (eg. Accepted / Run time error / Syntax error) based on their code.",
+        "links": [
+            {
+                "title": "Code",
+                "url": "https://github.com/rathijitpapon/Online-Judge-Project"
+            }
+        ],
+        "images": [
+            "ftp1.jpg"
+        ]
     }
 ]

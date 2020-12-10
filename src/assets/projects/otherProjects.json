@@ -1,3 +1,21 @@
 [
-    
+    {
+        "id": 1,
+        "title": "Flash Chat",
+        "technologies": [
+            "Flutter",
+            "Firebase"
+        ],
+        "description": "This is a simple Group Chat Mobile App built with Flutter & Firebase Cloud.",
+        "links": [
+            {
+                "title": "Code",
+                "url": "https://github.com/rathijitpapon/Flash-Chat-Mobile-App"
+            }
+        ],
+        "images": [
+            "flashchat1.png",
+            "flashchat2.png"
+        ]
+    }
 ]

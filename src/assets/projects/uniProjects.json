@@ -1,3 +1,111 @@
 [
-    
+    {
+        "id": 1,
+        "title": "Line Of Action",
+        "technologies": [
+            "React Js",
+            "Artificial Intelligence",
+            "Game Programming"
+        ],
+        "description": "Lines of Action is a board game, of the same general type as Chess, Go, or Othello. LOA was invented by Claude Soucie, and described in A Gamut of Games by Sid Sackson. I made this game for my Artificial Intelligence assignment which is taught in my undergraduate course curriculum.",
+        "links": [
+            {
+                "title": "Code",
+                "url": "https://github.com/rathijitpapon/line-of-action"
+            },
+            {
+                "title": "Visit Here",
+                "url": "https://lineofaction.herokuapp.com/"
+            }
+        ],
+        "images": [
+            "lineofaction1.png"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Online Judge - Java Based FTP Project",
+        "technologies": [
+            "Java",
+            "JavaFx",
+            "FTP"
+        ],
+        "description": "Here, we build an online programming code compiler & judging desktop application. We use Java & JavaFX. Here a user uploads their C or Java code file to the local server for a specific programming problem and the server gives a verdict (eg. Accepted / Run time error / Syntax error) based on their code.",
+        "links": [
+            {
+                "title": "Code",
+                "url": "https://github.com/rathijitpapon/Online-Judge-Project"
+            }
+        ],
+        "images": [
+            "ftp1.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Angry Birds - C & IGraphics Project",
+        "technologies": [
+            "C",
+            "IGraphics"
+        ],
+        "description": "This is my very first project. In this project, we build an angry birds game with C and IGraphics. Here a player can shoot a wall with an angry bird's face. All players' scores saved in a point's table.",
+        "links": [
+            {
+                "title": "Code",
+                "url": "https://github.com/rathijitpapon/Angry-Birds-With-IGraphics-"
+            }
+        ],
+        "images": [
+            "angrybirds1.bmp"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Food Advisor - Database Management Project",
+        "technologies": [
+            "PHP",
+            "PostgreSQL",
+            "FTP"
+        ],
+        "description": "In this project, we build a PHP based web application with a PostgreSQL database. This web application runs on the local server. This application is a Food Blog where users can share their food experiences from different restaurants. Based on their rating, users' home page & restaurants' home page shows most popular food items. All the data are saved & updated in local database.",
+        "links": [
+            {
+                "title": "Code",
+                "url": "https://github.com/rathijitpapon/Food-Advisor-With-PHP"
+            }
+        ],
+        "images": []
+    },
+    {
+        "id": 5,
+        "title": "Shooting Game - Micro Controller Project",
+        "technologies": [
+            "Micro Controller",
+            "C++"
+        ],
+        "description": "Here, we build a microcontroller circuit with two Bluetooth sensors where two players can play shooting game on the led matrix board with the phone apps.",
+        "links": [
+            {
+                "title": "Demo Video",
+                "url": "https://youtu.be/1alc1_GQKcw"
+            }
+        ],
+        "images": []
+    },
+    {
+        "id": 6,
+        "title": "Nachos Operating System",
+        "technologies": [
+            "Java",
+            "C"
+        ],
+        "description": "In this project, we build some important functionality of a mini operating system called Nachos-Not Another Completely Heuristic Operating System. We implement multi programming & threading for this os.",
+        "links": [
+            {
+                "title": "Code",
+                "url": "https://github.com/rathijitpapon/nachos-java"
+            }
+        ],
+        "images": []
+    }
 ]
