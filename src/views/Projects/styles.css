@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.Project-header {
+    background-color:#090909;
+    color: white;
+}
+  
+.Hamburger-menu{
+    min-height: 7vh; 
+    margin-bottom: 20px;
+}
+  
+.Project-main {
+    min-height: 88vh; 
+}
+
+.Project-footer {
+    min-height: 5vh; 
+}  
+
+.Project-col{
+    display: block;
+}
+
+.Project-Button-footer{
+    margin-top: 20;
+    width: 100%;
+    font-size: 1.7rem;
+}
+
+.Project-button-main{
+    text-align: center;
+    margin-left: 20px;
+}
+
+.topic-btn {
+    margin-bottom: 10px;
+}
+
+.topic-btn:hover{
+     background: #666666;
+}
+
+.p-heading1{
+    font-size: 4rem;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.Project-list-main {
+    overflow: hidden;
+}
+
+.hr-line {
+    width: 100%;
+    margin-top: 20px;
+    left: 5%;
+    border:none;
+ 	width: 90%;
+	height: 1px;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 10px 10px -10px #333;
+    background-color: rgba(255, 255, 255, 0.20);
+    color: rgba(255, 255, 255, 0.20);
+}

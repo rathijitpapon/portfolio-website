@@ -5,6 +5,7 @@ import Loading from "../views/Loading";
 import Home from "../views/Home";
 import Contact from "../views/Contact";
 import About from "../views/About";
+import Projects from "../views/Projects";
 
 const MainLayout = () => {
   return (
@@ -12,7 +13,7 @@ const MainLayout = () => {
       <Switch>
         <Route exact path="/" component={Loading} />
         <Route path="/home" component={Home} />
-        <Route path="/project" component={Home} />
+        <Route path="/project" component={Projects} />
         <Route path="/blog" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
