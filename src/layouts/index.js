@@ -15,8 +15,8 @@ const Projects = lazy(() => import("../views/Projects"));
 const MainLayout = () => {
   return (
     <div>
-      <Switch>
-        <Suspense fallback={<Loading />}>
+      <Suspense fallback={<Loading />}>
+        <Switch>
           <Route exact path="/" component={Loading} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/project" component={Projects} />
@@ -24,8 +24,8 @@ const MainLayout = () => {
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Redirect path="*" to="/home" component={Home} />
-        </Suspense>
-      </Switch>
+        </Switch>
+      </Suspense>
     </div>
   );
 };
