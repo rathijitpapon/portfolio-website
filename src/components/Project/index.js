@@ -30,7 +30,7 @@ const Project = ({project}) => {
                                 project.images.map(image => (
                                     <Image 
                                         key={image}
-                                        src={"projectImages/"+image} 
+                                        src={image} 
                                         alt="Projet Image" 
                                         className="project-img" 
                                     />
