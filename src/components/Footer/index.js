@@ -13,7 +13,7 @@ const Footer = props => {
         <Container className="footer" fluid={true}>
             <Row >
                 <Col xl={12}>
-                    Copyright © 2019-{(new Date().getFullYear())} <strong>Rathijit Paul</strong>
+                    Copyright © 2020-{(new Date().getFullYear())} <strong>Rathijit Paul</strong>
                 </Col>
             </Row>
         </Container>

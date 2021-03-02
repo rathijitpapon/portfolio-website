@@ -21,8 +21,9 @@ const Skill = () => {
                             &nbsp; 2. Python <br />
                             &nbsp; 3. C++ <br />
                             &nbsp; 4. Java <br />
-                            &nbsp; 5. SQL <br />
-                            &nbsp; 6. MongoDB <br />
+                            &nbsp; 5. MySQL <br />
+                            &nbsp; 6. PostgreSQL <br />
+                            &nbsp; 7. MongoDB <br />
                                 
                         </Col>
                         
@@ -34,13 +35,14 @@ const Skill = () => {
 
                             &nbsp; 1. Node Js <br />
                             &nbsp; 2. React Js <br />
-                            &nbsp; 3. Express <br />
-                            &nbsp; 4. Mongoose <br />
-                            &nbsp; 5. Flask <br />
-                            &nbsp; 6. Git <br />
-                            &nbsp; 7. Docker <br />
-                            &nbsp; 8. OpenCV <br />
-                            &nbsp; 9. Tensorflow <br />
+                            &nbsp; 3. Angular <br />
+                            &nbsp; 4. Express <br />
+                            &nbsp; 5. Mongoose <br />
+                            &nbsp; 6. Flask <br />
+                            &nbsp; 7. Git <br />
+                            &nbsp; 8. Docker <br />
+                            &nbsp; 9. OpenCV <br />
+                            &nbsp; 10. Tensorflow <br />
                         </Col>
 
                         <Col sm={12} className="skill-text">

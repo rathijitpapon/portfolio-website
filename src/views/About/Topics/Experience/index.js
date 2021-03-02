@@ -1,6 +1,7 @@
 import React from 'react';
 
 import MFL from '../../../../assets/img/mfl.png';
+import FPG from '../../../../assets/img/fpg.png';
 
 import {Row, Col, Image} from 'react-bootstrap';
 import "./styles.css";
@@ -11,7 +12,35 @@ const Experience = () => {
             <Row className="About-text">
                 <Col xl={12}>
                     <h1 className="p-heading1">Experiences</h1>
+
                     <br />
+
+                    <Row>
+                        <Col md={3}>
+                            <Image 
+                                style={{ 
+                                    marginTop: "5px",
+                                }} 
+                                src={FPG} alt="Image of Free Pixel Games Ltd." className="experience-img" 
+                            />
+                        </Col>
+                        <Col md={4}>
+                            <p className="exp-p-heading2">
+                                <strong>
+                                    <div
+                                        style={{ color: "#e493ea"}} 
+                                    >
+                                        Free Pixel Games Ltd.
+                                    </div>        
+                                </strong> 
+                                Junior Software Engineer <br />
+                                Feb 2021​ – ​ Present
+                            </p>
+                        </Col>
+                    </Row>
+
+                    <br />
+
                     <Row>
                         <Col md={3}>
                             <Image 
@@ -35,7 +64,7 @@ const Experience = () => {
                                     
                                 </strong> <br />
                                 Software Engineer Intern <br />
-                                Sep 2020​ – ​ Present
+                                Sep 2020​ – ​ Dec 2020
                             </p>
                         </Col>
                     </Row>
