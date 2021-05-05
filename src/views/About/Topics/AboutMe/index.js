@@ -11,6 +11,9 @@ const AboutMe = () => {
                     <h1 className="p-heading1">About Me</h1>
                     <p className="p-heading2">
                         Hello, I am <strong>Rathijit Paul</strong>. <br />
+
+                        I'm a software developer with experience of 1 year. I'm very much passionate about solving problems, writing efficient codes & developing software tools that will bring automaticity for people. Also, I'm a part-time <strong>Software Engineer</strong> in a renowned games company.<br /><br />
+
                         I'm currently pursuing an undergraduate degree in <strong><a 
                             style={{ color: "#e493ea"}}
                             href="https://cse.buet.ac.bd/" 
@@ -21,9 +24,7 @@ const AboutMe = () => {
                             href="https://www.buet.ac.bd/web/" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                        >Bangladesh University of Engineering & Technology (BUET)</a></strong>. <br /><br />
-
-                        Besides academic studies, I practice full stack web development & machine learning. Also I’m doing an internship as a <strong>Software Engineer</strong> in a well known startup software company.
+                        >Bangladesh University of Engineering & Technology (BUET)</a></strong>.
                     </p>
 
                     <div className="p-heading2">
