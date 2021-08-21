@@ -149,7 +149,7 @@ const About = (props) => {
                                 centered
                             >
                                 <Modal.Body className="about_resume_modal_body">
-                                    <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.5.207/build/pdf.worker.min.js">
+                                    <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js">
                                         <div id="pdfviewer">
                                             <Viewer fileUrl={Resume} />
                                         </div>
