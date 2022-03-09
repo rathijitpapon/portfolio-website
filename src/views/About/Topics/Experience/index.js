@@ -34,7 +34,7 @@ const Experience = () => {
                                     </div>        
                                 </strong> 
                                 Junior Software Engineer <br />
-                                Feb 2021​ – ​ Present
+                                Feb 2021​ – ​ Dec 2021
                             </p>
                         </Col>
                     </Row>

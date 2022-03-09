@@ -12,7 +12,7 @@ const AboutMe = () => {
                     <p className="p-heading2">
                         Hello, I am <strong>Rathijit Paul</strong>. <br />
 
-                        I'm a software developer with experience of 1 year. I'm very much passionate about solving problems, writing efficient codes & developing software tools that will bring automaticity for people. Also, I'm a part-time <strong>Software Engineer</strong> in a renowned games company.<br /><br />
+                        I'm a <strong>Software Developer</strong> with experience of more than 1 year. I'm a <strong>Team Player</strong> and I'm always ready to learn new things. I'm very much passionate about solving problems, writing efficient codes & developing software tools.
 
                         I'm currently pursuing an undergraduate degree in <strong><a 
                             style={{ color: "#e493ea"}}

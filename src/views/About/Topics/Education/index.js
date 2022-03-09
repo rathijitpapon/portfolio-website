@@ -31,7 +31,7 @@ const Education = () => {
                                     
                                 </strong> <br />
                                 BSc, Computer Science & Engineering <br />
-                                2017-Present
+                                2017-2022
                             </p>
                         </Col>
                     </Row>
