@@ -20,19 +20,25 @@
 
 .contact_input_text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.5rem!important;
     border-radius: 5%;
     text-align: center;
-    background: transparent;
-    color: white;
+    background: transparent!important;
+    color: white!important;
     min-height: 6.5vh;
     resize: none;
   }
    
+
+.contact_input_text:focus{
+    background: white !important;
+    color: black !important;
+}
+
 .contact_success_modal_body{
     text-align: center;
-    background: #090909;
-    color: aliceblue;
+    background: #090909!important;
+    color: aliceblue!important;
    }
    
 .contact_success_modal_img{
@@ -41,7 +47,7 @@
    }
  
 .contact-email-text-btn:hover{
-      background: #666666;
-      color: aliceblue;
+      background: #666666!important;
+      color: aliceblue!important;
   }
  

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
 import Animate from 'react-smooth';
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 import { pdfjs } from 'react-pdf';
 
 import Resume from '../../assets/pdfs/Rathijit Paul.pdf';
@@ -149,7 +149,7 @@ const About = (props) => {
                                 centered
                             >
                                 <Modal.Body className="about_resume_modal_body">
-                                    <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js">
+                                    <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.13.216/build/pdf.worker.min.js">
                                         <div id="pdfviewer">
                                             <Viewer fileUrl={Resume} />
                                         </div>

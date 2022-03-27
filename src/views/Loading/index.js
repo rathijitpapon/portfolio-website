@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom';
+import { Route, Navigate, Routes } from 'react-router-dom';
 import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
 import PuffLoader from "react-spinners/PuffLoader";
@@ -26,7 +26,7 @@ class Loading extends Component {
 
     render() {
         return this.state.redirect
-            ? <Redirect to="/home" />
+            ? <Routes> <Route path="*" element={<Navigate replace to="/home"/>} /></Routes>
             : 
             (
                 <div>

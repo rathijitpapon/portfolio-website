@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import Animate from 'react-smooth';
 import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 
 import Hamburger from '../../components/Hamburger';
 import Footer from "../../components/Footer";
