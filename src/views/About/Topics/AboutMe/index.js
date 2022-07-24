@@ -10,16 +10,16 @@ const AboutMe = () => {
                 <Col xl={12}>
                     <h1 className="p-heading1">About Me</h1>
                     <p className="p-heading2">
-                        Hello, I am <strong>Rathijit Paul</strong>. <br />
+                        Hello, I'm <strong>Rathijit Paul</strong>. <br />
 
-                        I'm a <strong>Software Developer</strong> with experience of more than 1 year. I'm a <strong>Team Player</strong> and I'm always ready to learn new things. I'm very much passionate about solving problems, writing efficient codes & developing software tools.
+                        I'm a <strong>Software Developer</strong> with experience of more than 2 year. I'm a <strong>Team Player</strong> and I'm always ready to learn new things. I'm very much passionate about solving problems, writing efficient codes & developing software tools.
 
-                        I'm currently pursuing an undergraduate degree in <strong><a 
+                        I've completed my undergraduate degree in <strong><a 
                             style={{ color: "#e493ea"}}
                             href="https://cse.buet.ac.bd/" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                        >Computer Science & Engineering</a></strong> at <strong><a 
+                        >Computer Science & Engineering</a></strong> from <strong><a 
                             style={{ color: "#e493ea"}}
                             href="https://www.buet.ac.bd/web/" 
                             target="_blank" 

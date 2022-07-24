@@ -2,6 +2,7 @@ import React from 'react';
 
 import MFL from '../../../../assets/img/mfl.png';
 import FPG from '../../../../assets/img/fpg.png';
+import IM from '../../../../assets/img/im.jpeg';
 
 import {Row, Col, Image} from 'react-bootstrap';
 import "./styles.css";
@@ -12,6 +13,35 @@ const Experience = () => {
             <Row className="About-text">
                 <Col xl={12}>
                     <h1 className="p-heading1">Experiences</h1>
+
+                    <br />
+
+                    <Row>
+                        <Col md={3}>
+                            <Image 
+                                style={{ 
+                                    marginTop: "5px",
+                                }} 
+                                src={IM} alt="Image of Intelligent Machines Limited" className="experience-img" 
+                            />
+                        </Col>
+                        <Col md={4}>
+                            <p className="exp-p-heading2">
+                                <strong>
+                                    <a 
+                                        style={{ color: "#e493ea"}} 
+                                        href="https://bangladesh.ai/"
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                    >
+                                        Intelligent Machines Limited
+                                    </a>       
+                                </strong> <br />
+                                Software Engineer <br />
+                                May 2022​ – ​ Present
+                            </p>
+                        </Col>
+                    </Row>
 
                     <br />
 
