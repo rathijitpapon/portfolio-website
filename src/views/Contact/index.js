@@ -12,6 +12,7 @@ import contactParticlesConfig from '../../config/contactParticlesConfig';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { SiBuymeacoffee } from 'react-icons/si';
 import {Container, Row, Col} from 'react-bootstrap';
 import "./styles.css";
 
@@ -64,6 +65,21 @@ const Contact = props => {
                                 <Row className="contact-left-footer" >
                                     <Col xl={12} className="social-icons">
                                         &nbsp; &nbsp;
+
+                                        <div style={{
+                                            width: '250px',
+                                            margin: 'auto',
+                                            marginBottom: '15px',
+                                        }}>
+                                            <a 
+                                                className="buymeacoffee"
+                                                href="https://www.buymeacoffee.com/rathijitpapon"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                BUY ME A <SiBuymeacoffee className="coffee" />
+                                            </a>
+                                        </div>
 
                                         <a 
                                             href="https://www.facebook.com/rathijitpapon009/" 

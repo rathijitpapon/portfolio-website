@@ -9,6 +9,7 @@ import {Link} from "react-router-dom";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { SiBuymeacoffee } from 'react-icons/si';
 
 import Footer from "../../components/Footer";
 import {
@@ -129,6 +130,20 @@ const Home = (props) => {
                                         </Link>
                                     </Button>
 
+                                    <div style={{
+                                        width: '250px',
+                                        margin: 'auto',
+                                        marginTop: '10px',
+                                    }}>
+                                        <a 
+                                            className="buymeacoffee"
+                                            href="https://www.buymeacoffee.com/rathijitpapon"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            BUY ME A <SiBuymeacoffee className="coffee" />
+                                        </a>
+                                    </div>
                                 </Col>
                             </Row>
                         </Container>
