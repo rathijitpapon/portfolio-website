@@ -5,7 +5,7 @@ import Animate from 'react-smooth';
 import Particles from 'react-tsparticles';
 import { pdfjs } from 'react-pdf';
 
-import Resume from '../../assets/pdfs/Rathijit Paul.pdf';
+// import Resume from '../../assets/pdfs/Rathijit Paul.pdf';
 import aboutParticlesConfig from '../../config/aboutParticlesConfig';
 import Hamburger from '../../components/Hamburger';
 import Footer from "../../components/Footer";
@@ -15,10 +15,10 @@ import Education from "./Topics/Education";
 import Experience from "./Topics/Experience";
 import Skill from "./Topics/Skill";
 
-import {Container, Row, Col, Button, Modal} from 'react-bootstrap';
+import {Container, Row, Col, Button} from 'react-bootstrap';
 import "./styles.css";
 
-import Viewer, { Worker } from '@phuocng/react-pdf-viewer';
+// import Viewer, { Worker } from '@phuocng/react-pdf-viewer';
 import '@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -30,16 +30,16 @@ function Analytics () {
 
 const About = (props) => {
 
-    const [show, setShow] = useState(false);
+    // const [show, setShow] = useState(false);
     const [topic, setTopic] = useState("about-me");
 
-    const handleClose = () => {
-        setShow(false);
-    }
+    // const handleClose = () => {
+    //     setShow(false);
+    // }
 
-    const handleOpen = () => {
-        setShow(true);
-    }
+    // const handleOpen = () => {
+    //     setShow(true);
+    // }
 
     const handleTopic = (topicName) => {
         setTopic(topicName);
@@ -129,7 +129,7 @@ const About = (props) => {
                                 </Col>
                             </Row>
 
-                            <Row className="about-left-footer" >
+                            {/* <Row className="about-left-footer" >
                                 <Col xl={12} className="button-main">
                                     <Button 
                                         variant="outline-light" 
@@ -140,9 +140,9 @@ const About = (props) => {
                                         Resume
                                     </Button>
                                 </Col>
-                            </Row>
+                            </Row> */}
 
-                            <Modal
+                            {/* <Modal
                                 aria-labelledby="contained-modal-title-vcenter"
                                 show={show} 
                                 onHide={handleClose}
@@ -154,13 +154,8 @@ const About = (props) => {
                                             <Viewer fileUrl={Resume} />
                                         </div>
                                     </Worker>
-                                    {/* <Document
-                                        file={Resume}
-                                    >
-                                        <Page pageNumber={1} />
-                                    </Document> */}
                                 </Modal.Body>
-                            </Modal>
+                            </Modal> */}
                         </div>
                     </Col>
                     <Col  xl={8}  className="About-col">
