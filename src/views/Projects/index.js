@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 import Animate from 'react-smooth';
-import ReactGa from 'react-ga';
+// import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
 import Particles from 'react-tsparticles';
 
@@ -19,10 +19,12 @@ const webProjects = require("../../assets/projects/webProjects.json");
 const uniProjects = require("../../assets/projects/uniProjects.json");
 const otherProjects = require("../../assets/projects/otherProjects.json");
 
+/*
 function Analytics () {
     ReactGa.initialize(process.env.REACT_APP_GA_KEY);
     ReactGa.pageview(process.env.REACT_APP_DOMAIN_NAME + '- Home Screen');
 }
+*/
 
 const Projects = () => {
 
@@ -32,7 +34,7 @@ const Projects = () => {
         setTopic(topicName);
     }
 
-    Analytics()
+    // Analytics()
 
     return ( 
         <Container className="Project-header" fluid={true}>

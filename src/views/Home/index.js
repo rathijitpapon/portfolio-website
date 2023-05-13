@@ -3,7 +3,7 @@ import ReactTypingEffect from 'react-typing-effect';
 import Animate from 'react-smooth';
 import Particles from 'react-tsparticles';
 import particlesConfig from '../../config/particlesConfig';
-import ReactGa from 'react-ga';
+// import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
 import {Link} from "react-router-dom";
 
@@ -23,14 +23,16 @@ import {
 import Rathijit from '../../assets/img/rathijit.png';
 import "./styles.css";
 
+/*
 function Analytics () {
     ReactGa.initialize(process.env.REACT_APP_GA_KEY);
     ReactGa.pageview(process.env.REACT_APP_DOMAIN_NAME + '- Home Screen');
 }
+*/
 
 const Home = (props) => {
 
-    Analytics()
+    // Analytics()
 
     return (
         <div>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Animate from 'react-smooth';
-import ReactGa from 'react-ga';
+// import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
 import Particles from 'react-tsparticles';
 
@@ -16,14 +16,16 @@ import { SiBuymeacoffee } from 'react-icons/si';
 import {Container, Row, Col} from 'react-bootstrap';
 import "./styles.css";
 
+/*
 function Analytics () {
     ReactGa.initialize(process.env.REACT_APP_GA_KEY);
     ReactGa.pageview(process.env.REACT_APP_DOMAIN_NAME + '- Home Screen');
 }
+*/
 
 const Contact = props => {
 
-    Analytics()
+    // Analytics()
 
     return (
         <div>

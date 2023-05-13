@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import ReactGa from 'react-ga';
+// import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
 import Animate from 'react-smooth';
 import Particles from 'react-tsparticles';
@@ -23,10 +23,12 @@ import '@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
+/*
 function Analytics () {
     ReactGa.initialize(process.env.REACT_APP_GA_KEY);
     ReactGa.pageview(process.env.REACT_APP_DOMAIN_NAME + '- Home Screen');
 }
+*/
 
 const About = (props) => {
 
@@ -45,7 +47,7 @@ const About = (props) => {
         setTopic(topicName);
     }
 
-    Analytics()
+    // Analytics()
 
     return (
         <Container className="About-header" fluid={true}>
