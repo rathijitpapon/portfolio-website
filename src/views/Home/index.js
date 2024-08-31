@@ -40,7 +40,7 @@ const Home = (props) => {
                     <meta charSet="utf-8" />
                     <title>Home | Rathijit Paul</title>
                     <link rel="canonical" href={process.env.REACT_APP_DOMAIN_NAME} />
-                    <meta name="description" content="Rathijit Paul | Full Stack Software Developer" />
+                    <meta name="description" content="Rathijit Paul | Software Engineer | Founder" />
             </Helmet>
 
             <Animate to="1" from="0" attributeName="opacity">
@@ -64,7 +64,7 @@ const Home = (props) => {
                                     <h3>
                                         <strong>
                                             <ReactTypingEffect
-                                                text={["Software Developer", "Full Stack Web Developer"]}
+                                                text={["Software Engineer", "Backend Developer"]}
                                                 className="typical"
                                                 speed="70"
                                                 eraseDelay="1500"

@@ -1,6 +1,47 @@
 [
     {
         "id": 1,
+        "title": "Neurons.bio",
+        "technologies": [
+            "Rust",
+            "Next.js",
+            "PostgreSQL",
+            "LLM",
+            "OpenAI",
+            "Docker"
+        ],
+        "description": "This is a stealth mode startup MVP project. Here, biotech and drug discovery professionals can ask complex research questions to solve them with the help of autonomous AI Agents and LLMs. Users can also use different Agents individually to solve small tasks and onboard their own Agents as a part of their team. This project is built using Rust, Next.js, PostgreSQL, LLM, OpenAI, Docker.",
+        "links": [
+            {
+                "title": "Visit Here",
+                "url": "https://neurons.bio/"
+            }
+        ],
+        "images": [
+            "https://github.com/user-attachments/assets/c61b401f-1bad-40d1-953e-9732433882a1",
+            "https://github.com/user-attachments/assets/bb1480c3-f4e5-42c8-aa14-5c2849e9d8ee",
+            "https://github.com/user-attachments/assets/cafcbf90-39f8-48e3-a260-2f1c70e58627",
+            "https://github.com/user-attachments/assets/2065790a-6403-4b19-920d-1024338806d8"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "OneBRC",
+        "technologies": [
+            "Rust",
+            "Multi-Threading"
+        ],
+        "description": "This is a coding challenge to process a large dataset of temperature measurements. The dataset is a text file with a line for each measurement, where each line contains a station name and a temperature value separated by a semicolon. The goal is to calculate the min, max, and mean temperature value of each station as fast as possible. The solution is implemented in Rust using multi-threading and latency is in top 5 in the global leaderboard.",
+        "links": [
+            {
+                "title": "Code",
+                "url": "https://github.com/rathijitpapon/onebrc"
+            }
+        ],
+        "images": []
+    },
+    {
+        "id": 3,
         "title": "Tour Pedia",
         "technologies": [
             "Node Js",
@@ -41,7 +82,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 4,
         "title": "Portfolio Website",
         "technologies": [
             "React Js",
@@ -67,42 +108,7 @@
         ]
     },
     {
-        "id": 3,
-        "title": "Travel Talk",
-        "technologies": [
-            "React Js",
-            "Node Js",
-            "Express",
-            "MongoDB",
-            "Web Socket",
-            "REST API",
-            "Jest"
-        ],
-        "description": "This is one of my portfolio projects. I built it as a practice project using MERN Stack. Here I build a social platform for the travellers worldwide where they travellers can share their travel experiences. Here is the frontend code base this web app.",
-        "links": [
-            {
-                "title": "Frontend Code",
-                "url": "https://github.com/rathijitpapon/travel-talk"
-            },
-            {
-                "title": "Backend Code",
-                "url": "https://github.com/rathijitpapon/travel-talk-backend"
-            },
-            {
-                "title": "Visit Here",
-                "url": "https://traveltalk.netlify.app/"
-            }
-        ],
-        "images": [
-            "https://user-images.githubusercontent.com/30369246/102005025-f35b1a00-3d3f-11eb-9ca9-66d1ea5f0ee8.png",
-            "https://user-images.githubusercontent.com/30369246/102005027-f3f3b080-3d3f-11eb-9158-aecddc0c0acf.png",
-            "https://user-images.githubusercontent.com/30369246/102005029-f524dd80-3d3f-11eb-99f3-7bcc10fc592d.png",
-            "https://user-images.githubusercontent.com/30369246/102005030-f5bd7400-3d3f-11eb-8953-9891928309c2.png",
-            "https://user-images.githubusercontent.com/30369246/102005032-f6eea100-3d3f-11eb-8471-9a2a7335bcfa.png"
-        ]
-    },
-    {
-        "id": 4,
+        "id": 5,
         "title": "Line Of Action",
         "technologies": [
             "React Js",
@@ -122,25 +128,6 @@
         ],
         "images": [
             "https://user-images.githubusercontent.com/30369246/102005019-edfdcf80-3d3f-11eb-8cf3-f0848bbd4038.png"
-        ]
-    },
-    {
-        "id": 5,
-        "title": "Online Judge - Java Based FTP Project",
-        "technologies": [
-            "Java",
-            "JavaFx",
-            "FTP"
-        ],
-        "description": "Here, we build an online programming code compiler & judging desktop application. We use Java & JavaFX. Here a user uploads their C or Java code file to the local server for a specific programming problem and the server gives a verdict (eg. Accepted / Run time error / Syntax error) based on their code.",
-        "links": [
-            {
-                "title": "Code",
-                "url": "https://github.com/rathijitpapon/Online-Judge-Project"
-            }
-        ],
-        "images": [
-            "https://user-images.githubusercontent.com/30369246/102005017-ed653900-3d3f-11eb-8940-2302ebd9a711.jpg"
         ]
     }
 ]

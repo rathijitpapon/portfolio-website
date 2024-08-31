@@ -12,8 +12,7 @@ const AboutMe = () => {
                     <p className="p-heading2">
                         Hello, I'm <strong>Rathijit Paul</strong>. <br />
 
-                        I'm a <strong>Software Developer</strong> with experience of more than 2 year. I'm a <strong>Team Player</strong> and I'm always ready to learn new things. I'm very much passionate about solving problems, writing efficient codes & developing software tools.
-
+                        I'm a <strong>Software Engineer</strong> and a <strong>Product Builder</strong> having 4 years of working experience. I'm a <strong>Team Player</strong> and I'm always ready to learn new things wheather it's a new technology or a new domain knowledge. I'm very much passionate about solving problems, writing efficient codes & developing software tools.
                         I've completed my undergraduate degree in <strong><a 
                             style={{ color: "#e493ea"}}
                             href="https://cse.buet.ac.bd/" 
@@ -42,12 +41,17 @@ const AboutMe = () => {
                             <li 
                                 style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
                             >
-                                🤩 Web Application Development
+                                😘 Entrepreneurship
                             </li>
                             <li 
                                 style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
                             >
                                 😊 Backend Development
+                            </li>
+                            <li 
+                                style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}
+                            >
+                                🤩 Web Application Development
                             </li>
                             <li 
                                 style={{margin: "auto", marginLeft: "20px", textAlign: 'left'}}

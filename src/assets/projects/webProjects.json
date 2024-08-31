@@ -1,6 +1,47 @@
 [
     {
         "id": 1,
+        "title": "Neurons.bio",
+        "technologies": [
+            "Rust",
+            "Next.js",
+            "PostgreSQL",
+            "LLM",
+            "OpenAI",
+            "Docker"
+        ],
+        "description": "This is a stealth mode startup MVP project. Here, biotech and drug discovery professionals can ask complex research questions to solve them with the help of autonomous AI Agents and LLMs. Users can also use different Agents individually to solve small tasks and onboard their own Agents as a part of their team. This project is built using Rust, Next.js, PostgreSQL, LLM, OpenAI, Docker.",
+        "links": [
+            {
+                "title": "Visit Here",
+                "url": "https://neurons.bio/"
+            }
+        ],
+        "images": [
+            "https://github.com/user-attachments/assets/c61b401f-1bad-40d1-953e-9732433882a1",
+            "https://github.com/user-attachments/assets/bb1480c3-f4e5-42c8-aa14-5c2849e9d8ee",
+            "https://github.com/user-attachments/assets/cafcbf90-39f8-48e3-a260-2f1c70e58627",
+            "https://github.com/user-attachments/assets/2065790a-6403-4b19-920d-1024338806d8"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "OneBRC",
+        "technologies": [
+            "Rust",
+            "Multi-Threading"
+        ],
+        "description": "This is a coding challenge to process a large dataset of temperature measurements. The dataset is a text file with a line for each measurement, where each line contains a station name and a temperature value separated by a semicolon. The goal is to calculate the min, max, and mean temperature value of each station as fast as possible. The solution is implemented in Rust using multi-threading and latency is in top 5 in the global leaderboard.",
+        "links": [
+            {
+                "title": "Code",
+                "url": "https://github.com/rathijitpapon/onebrc"
+            }
+        ],
+        "images": []
+    },
+    {
+        "id": 3,
         "title": "Tour Pedia",
         "technologies": [
             "Node Js",
@@ -41,7 +82,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 4,
         "title": "Portfolio Website",
         "technologies": [
             "React Js",
@@ -67,7 +108,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 5,
         "title": "Travel Talk",
         "technologies": [
             "React Js",
@@ -102,7 +143,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 6,
         "title": "Vidly Movies App",
         "technologies": [
             "React Js",
@@ -130,7 +171,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 7,
         "title": "Line Of Action",
         "technologies": [
             "React Js",
@@ -153,7 +194,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 8,
         "title": "Task Manager API",
         "technologies": [
             "Node Js",
