@@ -59,7 +59,7 @@ const Skill = () => {
                             &nbsp; 11. LLM <br />
                         </Col>
 
-                        <Col sm={12} className="skill-text">
+                        <Col sm={6} className="skill-text">
                             <strong style={{ fontSize: "20px" }}>
                                 Knowledge
                             </strong>
